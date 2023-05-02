@@ -1,0 +1,77 @@
+Git bu eng mashhur version control system.
+versiyalarni boshqarish tizimi.
+Version control system nima-bu fayllarimizdagi yoki fayllar to'plamimizdagi o'zgarishlarning qachon kim tomonidan aynan nima o'garishlar kiritilganligini qayd qiluvchi tizim.
+Version control system qilingan o'zgarishlani ortga qaytarish va kim xato yozganligi aniqlab berish haqida ma'lumot beradi.
+
+GIT BUYRUQLARI
+
+1.git config --global user.name "Go'zal Mo'minova" - ism yozish.
+
+2.Terminalni ochib shu buyruqni yozamiz.Terminal sizda Git bash bo'lishi mumkin yoki windows terminalida ishlasa ham bo'ladi.Vs code terminalida ham ishlasa bo'ladi.
+
+3.git --version - Gitni versiyasi haqida ma'lumot beradi.
+
+4.git config --global user.email "gozalmominova6gamil.com" - bu buyruq gitga emailingizni tanitib qo'yadi.
+
+5.git config  user.name - bu buyruq git bashga yozilsa siz kiritgan ismni ko'rsatib berishi kerak.
+
+6.git config  user.email - bu buyruq git bashga yozilsa siz kiritgan emailni ko'rsatib berishi kerak.
+
+7. cd Desktop - desktop fayllarga chiqadi yoki kiradi.
+
+8. mkdir papkanomi - papkanomi degan  papka ochib beradi.
+
+9. cd papkanomi -  papkani ochib beradi.
+
+10. ls - Desktop papkani ko'rsatadi, agar papkada bo'lsangiz papkani ichidagi fayllarni ko'rsatadi.
+
+11.touch index.html - papkamning ichiga kirib shu buyruqni yozsam, index.html degan fayl ochib beradi.
+
+12.rm index.html - bu buyruq shu faylni o'chirib tashlaydi.
+
+13. echo "Salom" > index.html - buyrug'ini bersak, Salom degan so'zni shu papkaga yozib beradi.
+
+14. nano index.html - birinchi yozganimizni edit qilib qo'ysak bo'ladi.
+
+15.code . - papkani ichida turib shu buyruqni yozsangiz shu papkani vs codeda ochib beradi.
+
+16. start . - bu buyruq sizga natijani ko'rsatadi.
+
+17. git init - papkani o'zgarishlarni saqlab boradigan papka.
+
+18. git add index.html - index.html dagi o'zgarishni kiritdi.
+
+19.git add . - papkani ichidagi barcha fayllardagi o'zgarishlarni kiritadi.
+
+20.git status - papkadagi o'zgarishlarni ko'rsatadi(fayl qo'shilganmi yoki o'chirilganmi shunga o'xshagan narsalarni ko'rsatadi.)
+
+21.git commit -m "Bu bizning birinchi versiyamiz" - bu buyruq gitga jo'natgan fayllarimizning ustiga: Bu bizning birinchi versiyamiz degan xabar yozib jo'natadi. 
+
+22.git log - bizga versiyalarni ko'rsatadi.
+
+23.git checkout . - bitta oldingingi saqlamagan narsalaringizni orqaga qaytaradi.
+
+24.git checkout  024a73ccc2bf6a9c1fd609185bfa15cc17d23806 - bu xohlagan " 024a73ccc2bf6a9c1fd609185bfa15cc17d23806 " nomli versiyasiga o'tish .
+
+25.git chekout master - oxirgi ko'rinishiga o'tkazib beradi.
+
+26.git reset --hard - bu buyruq xuddi "git checkout . " buyrug'i bilan bir xil vazifani bajaradi. 
+
+27.git branch - mavjud bo'lgan barcha filiallarni chiqarib beradi.
+
+28.git branch worked - worked degan branch yani filial yaratib beradi.
+
+29.git branch - bu buyruqni yozsam endi menga 2 ta branch yani filial ko'rinadi, qaysi filial yashil rangda bo'lsa siz shu branchda turgan bo'lasiz.
+
+30.git checkout worked - bu buyruq bizga worked branchiga o'tkazib beradi.
+
+31.git checkout master - bu buyruq bizga master branchiga o'tkazib beradi. 
+
+32.git merge master - siz agar hozir worked branchida turgan bo'lsangiz sizdagi worked branchi bilan master brachini qo'shib beradi.
+
+33.git push origin master - bu sizning o'zgarishlaringizni gitga siz yozgan commit bilan saqlaydi. 
+
+34.git pull - githubdagi o'zgarishlarni o'zingizga yuklab olish.
+
+35.git clone - githubdagi faylni nusxalaydi.
+
